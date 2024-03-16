@@ -5,7 +5,7 @@
         <label>Roma great Dolabra</label>
         <description>DESCRIPTION</description>
         <graphicData>
-            <texPath>SET/PATH</texPath>
+            <texPath>Weapons/RomaGreatDolabra</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -52,7 +52,7 @@
           </li>
         </tools>
           <recipeMaker>
-          <researchPrerequisite>DankPyon_BasicBlades</researchPrerequisite>
+          <researchPrerequisite>pphhyy_RomaHeavyWeapons</researchPrerequisite>
           <skillRequirements>
             <Crafting>2</Crafting>
           </skillRequirements>

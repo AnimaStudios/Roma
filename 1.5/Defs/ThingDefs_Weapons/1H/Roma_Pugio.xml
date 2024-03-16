@@ -6,7 +6,7 @@
         <techLevel>Medieval</techLevel>
         <description>DESCRIPTION</description>
         <graphicData>
-            <texPath>SET/PATH</texPath>
+            <texPath>Weapons/RomaPugio</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -54,10 +54,10 @@
           </li>
         </tools>
         <recipeMaker>
-          <recipeUsers>
-            <li>CraftingSpot</li>
-          </recipeUsers>
-          <displayPriority>310</displayPriority>
+          <researchPrerequisites>
+            <li>Smithing</li>
+            <li>pphhyy_RomaWeapons</li>
+          </researchPrerequisites>
         </recipeMaker>
       </ThingDef>
 </Defs>

@@ -6,7 +6,7 @@
         <description>DESCRIPTION</description>
         <possessionCount>1</possessionCount>
         <graphicData>
-            <texPath>SET/PATH</texPath>
+            <texPath>Weapons/RomaGreatGladius</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -55,11 +55,10 @@
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>LongBlades</researchPrerequisite>
+          <researchPrerequisite>pphhyy_RomaHeavyWeapons</researchPrerequisite>
           <skillRequirements>
             <Crafting>5</Crafting>
           </skillRequirements>
-          <displayPriority>420</displayPriority>
         </recipeMaker>
       </ThingDef>
 </Defs>

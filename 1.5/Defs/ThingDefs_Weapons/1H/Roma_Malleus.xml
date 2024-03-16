@@ -7,7 +7,7 @@
     <description>DESCRIPTION</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>SET/PATH</texPath>
+      <texPath>Weapons/RomaMalleus</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -20,11 +20,13 @@
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisites>
+        <li>Smithing</li>
+        <li>pphhyy_RomaWeapons</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
-      <displayPriority>400</displayPriority>
     </recipeMaker>
     <stuffCategories>
       <li>Metallic</li>

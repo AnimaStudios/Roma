@@ -5,7 +5,7 @@
         <label>Roma hasta</label>
         <description>DESCRIPTION</description>
         <graphicData>
-            <texPath>SET/PATH</texPath>
+            <texPath>Weapons/RomaHasta</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -47,11 +47,13 @@
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>LongBlades</researchPrerequisite>
+          <researchPrerequisites>
+            <li>Smithing</li>
+            <li>pphhyy_RomaWeapons</li>
+          </researchPrerequisites>
           <skillRequirements>
             <Crafting>4</Crafting>
           </skillRequirements>
-          <displayPriority>330</displayPriority>
         </recipeMaker>
       </ThingDef> 
 </Defs>

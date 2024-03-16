@@ -5,7 +5,7 @@
         <label>Roma dolabra</label>
         <description>DESCRIPTION</description>
         <graphicData>
-          <texPath>SET/PATH</texPath>
+          <texPath>Weapons/RomaDolabra</texPath>
           <graphicClass>Graphic_Single</graphicClass>
           <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -52,7 +52,10 @@
           </li>
         </tools>
           <recipeMaker>
-          <researchPrerequisite>RESEARCH?</researchPrerequisite>
+          <researchPrerequisites>
+            <li>Smithing</li>
+            <li>pphhyy_RomaWeapons</li>
+          </researchPrerequisites>
           <skillRequirements>
             <Crafting>4</Crafting>
           </skillRequirements>

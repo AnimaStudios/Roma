@@ -6,7 +6,7 @@
         <description>DESCRIPTION</description>
         <possessionCount>1</possessionCount>
         <graphicData>
-            <texPath>SET/PATH</texPath>
+            <texPath>Weapons/RomaGladius</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -55,11 +55,13 @@
           </li>
         </tools>
         <recipeMaker>
-          <researchPrerequisite>Smithing</researchPrerequisite>
+          <researchPrerequisites>
+            <li>Smithing</li>
+            <li>pphhyy_RomaWeapons</li>
+          </researchPrerequisites>
           <skillRequirements>
             <Crafting>3</Crafting>
           </skillRequirements>
-          <displayPriority>410</displayPriority>
         </recipeMaker>
       </ThingDef>
 </Defs>

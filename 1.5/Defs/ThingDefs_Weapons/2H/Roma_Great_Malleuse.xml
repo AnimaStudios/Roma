@@ -5,7 +5,7 @@
         <label>Roma great malleuse</label>
         <description>DESCTIPTION</description>
         <graphicData>
-            <texPath>SET/PATH</texPath>
+            <texPath>Weapons/RomaGreatMalleuse</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -46,8 +46,8 @@
             <armorPenetration>0.25</armorPenetration>
           </li>
         </tools>
-          <recipeMaker>
-          <researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
+        <recipeMaker>
+          <researchPrerequisite>pphhyy_RomaHeavyWeapons</researchPrerequisite>
           <skillRequirements>
             <Crafting>4</Crafting>
           </skillRequirements>
