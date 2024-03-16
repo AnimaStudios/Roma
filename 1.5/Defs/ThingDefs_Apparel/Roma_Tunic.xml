@@ -8,7 +8,7 @@
           <researchPrerequisite>ComplexClothing</researchPrerequisite>
         </recipeMaker>
         <graphicData>
-          <texPath>Apparel/RomaTunic_Item</texPath>
+          <texPath>Apparel/RomaTunic</texPath>
           <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costStuffCount>40</costStuffCount>
