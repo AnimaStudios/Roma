@@ -7,7 +7,7 @@
         <description>A long cape of elegant design. It hangs over one side of the torso.</description>
         <possessionCount>1</possessionCount>
         <graphicData>
-          <texPath>Apparel/RomaCapeI_Item</texPath>
+          <texPath>Apparel/RomaCapeI</texPath>
           <graphicClass>Graphic_Single</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.05</drawSize>
