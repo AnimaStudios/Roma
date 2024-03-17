@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <ThingDef ParentName="ArmorSmithableBase" Name="pphhyy_Roma_Legionary_Armour_Base" Abstract="True">
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>pphhyy_RomaArmour</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>12</Mass>
+      <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>ApparelArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="pphhyy_Roma_Legionary_Armour_Base">
+    <defName>pphhyy_Roma_Legionary_ArmourI</defName>
+    <label>legionary armour</label>
+    <description>DESCRIPTION</description>
+    <graphicData>
+      <texPath>Armor/LegionaryArmourI</texPath>
+    </graphicData>
+    <apparel>
+      <tags>
+        <li>pphhyy_Roma_LegionaryI</li>
+      </tags>
+      <wornGraphicPath>Armor/LegionaryArmourI</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="pphhyy_Roma_Legionary_Armour_Base">
+    <defName>pphhyy_Roma_Legionary_ArmourII</defName>
+    <label>legionary armour</label>
+    <description>DESCRIPTION</description>
+    <graphicData>
+      <texPath>Armor/LegionaryArmourII</texPath>
+    </graphicData>
+    <apparel>
+      <tags>
+        <li>pphhyy_Roma_LegionaryII</li>
+      </tags>
+      <wornGraphicPath>Armor/LegionaryArmourII</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="pphhyy_Roma_Legionary_Armour_Base">
+    <defName>pphhyy_Roma_Legionary_ArmourIII</defName>
+    <label>legionary armour</label>
+    <description>DESCRIPTION</description>
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+    <graphicData>
+      <texPath>Armor/LegionaryArmourIII</texPath>
+    </graphicData>
+    <statBases>
+      <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.86</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <tags>
+        <li>pphhyy_Roma_LegionaryIII</li>
+      </tags>
+      <wornGraphicPath>Armor/LegionaryArmourIII</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+</Defs>

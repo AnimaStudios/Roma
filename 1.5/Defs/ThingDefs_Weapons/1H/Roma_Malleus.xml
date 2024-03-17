@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>pphhyy_Roma_Malleus</defName>
     <label>Roma malleus</label>
@@ -32,7 +32,7 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-        <WoodLog>20</WoodLog>
+      <WoodLog>20</WoodLog>
     </costList>
     <weaponTags>
       <li>pphhyyRomaMelee</li>
