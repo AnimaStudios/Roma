@@ -6,6 +6,7 @@
     <techLevel>Medieval</techLevel>
     <description>DESCRIPTION</description>
     <graphicData>
+      <drawSize>0.90</drawSize>
       <texPath>Weapons/RomaPugio</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>

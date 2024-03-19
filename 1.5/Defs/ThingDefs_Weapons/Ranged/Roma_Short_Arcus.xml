@@ -6,6 +6,7 @@
     <description>DESCRIPTION</description>
     <possessionCount>1</possessionCount>
     <graphicData>
+      <drawSize>1.25</drawSize>
       <texPath>Weapons/RomaShortArcus</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>

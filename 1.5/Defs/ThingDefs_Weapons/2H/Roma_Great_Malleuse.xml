@@ -5,12 +5,13 @@
     <label>Roma great malleuse</label>
     <description>DESCTIPTION</description>
     <graphicData>
+      <drawSize>1.25</drawSize>
       <texPath>Weapons/RomaGreatMalleuse</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>0</equippedAngleOffset>
     <statBases>
       <WorkToMake>18000</WorkToMake>
       <Mass>3</Mass>

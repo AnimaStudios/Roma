@@ -23,7 +23,7 @@
       <Mass>2</Mass>
     </statBases>
     <relicChance>2</relicChance>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>0</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>

@@ -5,12 +5,13 @@
     <label>Roma great Dolabra</label>
     <description>DESCRIPTION</description>
     <graphicData>
+      <drawSize>1.25</drawSize>
       <texPath>Weapons/RomaGreatDolabra</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>0</equippedAngleOffset>
     <statBases>
       <WorkToMake>7500</WorkToMake>
       <Mass>2.5</Mass>

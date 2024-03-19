@@ -5,6 +5,7 @@
     <label>Roma hasta</label>
     <description>DESCRIPTION</description>
     <graphicData>
+      <drawSize>1.25</drawSize>
       <texPath>Weapons/RomaHasta</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
