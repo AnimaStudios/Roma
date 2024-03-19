@@ -56,9 +56,10 @@
         </graphicData>
         <apparel>
             <tags>
-                <li>pphhyy_Roma_HelmI</li>
+                <li>pphhyy_Roma_CenturionI</li>
             </tags>
             <wornGraphicPath>HeadGear/CenturionHelmI</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
     </ThingDef>
 
@@ -71,9 +72,10 @@
         </graphicData>
         <apparel>
             <tags>
-                <li>pphhyy_Roma_HelmII</li>
+                <li>pphhyy_Roma_CenturionII</li>
             </tags>
             <wornGraphicPath>HeadGear/CenturionHelmII</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
         </apparel>
     </ThingDef>
 

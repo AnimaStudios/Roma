@@ -45,6 +45,14 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>1000</weight>
+          <only>(1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
   </ThingDef>
 
   <ThingDef ParentName="pphhyy_Roma_Legionary_Helm_Base">
@@ -56,9 +64,10 @@
     </graphicData>
     <apparel>
       <tags>
-        <li>pphhyy_Roma_HelmI</li>
+        <li>pphhyy_Roma_LegionaryI</li>
       </tags>
       <wornGraphicPath>HeadGear/LegionaryHelmI</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
   </ThingDef>
 
@@ -71,9 +80,10 @@
     </graphicData>
     <apparel>
       <tags>
-        <li>pphhyy_Roma_HelmII</li>
+        <li>pphhyy_Roma_LegionaryII</li>
       </tags>
       <wornGraphicPath>HeadGear/LegionaryHelmII</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
   </ThingDef>
 
