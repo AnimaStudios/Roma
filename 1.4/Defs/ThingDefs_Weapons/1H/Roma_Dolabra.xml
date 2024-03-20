@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>pphhyy_Roma_Dolabra</defName>
+    <label>Roma dolabra</label>
+    <description>DESCRIPTION</description>
+    <graphicData>
+      <texPath>Weapons/RomaDolabra</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MiningSpeed>0.25</MiningSpeed>
+      <PlantHarvestYield>0.15</PlantHarvestYield>
+      <PlantWorkSpeed>0.25</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <weaponTags>
+      <li>pphhyyRomaMelee</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16.75</power>
+        <cooldownTime>2.16</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>Smithing</li>
+        <li>pphhyy_RomaWeapons</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

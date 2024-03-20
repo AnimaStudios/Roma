@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef ParentName="HatMakeableBase" Name="pphhyy_Roma_Legionary_Hood_Base" Abstract="True">
+        <uiIconScale>1.15</uiIconScale>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_RomaArmour</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.8</EquipDelay>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+        <costList>
+            <Cloth>30</Cloth>
+        </costList>
+        <equippedStatOffsets>
+            <SocialImpact>0.2</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_Roma_Legionary_Hood_Base">
+        <defName>pphhyy_Roma_Legionary_HoodI</defName>
+        <label>legionary hood</label>
+        <description>DESCRIPTION</description>
+        <graphicData>
+            <texPath>HeadGear/LegionaryHoodI</texPath>
+        </graphicData>
+        <apparel>
+            <tags>
+                <li>pphhyy_Roma_HoodI</li>
+            </tags>
+            <wornGraphicPath>HeadGear/LegionaryHoodI</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+</Defs>

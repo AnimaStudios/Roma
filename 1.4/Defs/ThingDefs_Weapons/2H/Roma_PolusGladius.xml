@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>pphhyy_Roma_PolusGladius</defName>
+    <label>Roma polusgladius</label>
+    <description>DESCRIPTION</description>
+    <graphicData>
+      <drawSize>1.25</drawSize>
+      <texPath>Weapons/RomaPolusGladius</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>
+    <weaponTags>
+      <li>pphhyyRomaMeleeHeavy</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13.2</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23.5</power>
+        <armorPenetration>0.50</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_RomaHeavyWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+</Defs>
