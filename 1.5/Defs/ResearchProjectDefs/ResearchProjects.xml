@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>pphhyy_RomaWeapons</defName>
+    <tab>pphhyy_animastudios</tab>
+    <label>Roman Armaments</label>
+    <description>DESCRIPTION</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>pphhyy_RomaHeavyWeapons</defName>
+    <tab>pphhyy_animastudios</tab>
+    <label>Roman Heavy Armaments</label>
+    <description>DESCRIPTION</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <prerequisites>
+      <li>pphhyy_RomaWeapons</li>
+      <li>Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+</Defs>

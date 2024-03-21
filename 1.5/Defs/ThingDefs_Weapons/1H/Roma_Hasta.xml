@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>pphhyy_Roma_Hasta</defName>
+        <label>Roma hasta</label>
+        <description>DESCRIPTION</description>
+        <graphicData>
+            <texPath>Weapons/RomaHasta</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <techLevel>Medieval</techLevel>
+        <weaponTags>
+          <li>pphhyyRomaMelee</li>
+        </weaponTags>
+        <costStuffCount>15</costStuffCount>
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+        <statBases>
+          <WorkToMake>12000</WorkToMake>
+          <Mass>2</Mass>
+        </statBases>
+        <equippedAngleOffset>-25</equippedAngleOffset>
+        <stuffCategories>
+          <li>Metallic</li>
+        </stuffCategories>
+        <costList>
+            <WoodLog>60</WoodLog>
+        </costList>
+        <tools>
+          <li>
+            <label>shaft</label>
+            <capacities>
+              <li>Blunt</li>
+              <li>Poke</li>
+            </capacities>
+            <power>13</power>
+            <cooldownTime>2.5</cooldownTime>
+          </li>
+          <li>
+            <label>point</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>22.5</power>
+            <armorPenetration>0.57</armorPenetration>
+            <cooldownTime>2.5</cooldownTime>
+          </li>
+        </tools>
+        <recipeMaker>
+          <researchPrerequisites>
+            <li>Smithing</li>
+            <li>pphhyy_RomaWeapons</li>
+          </researchPrerequisites>
+          <skillRequirements>
+            <Crafting>4</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+      </ThingDef> 
+</Defs>

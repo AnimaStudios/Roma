@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+      <ThingDef ParentName="ApparelMakeableBase">
+        <defName>pphhyy_Roma_CapeI</defName>
+        <label>Roma cape</label>
+        <description>A long cape of elegant design. It hangs over one side of the torso.</description>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+          <texPath>Apparel/RomaCapeI</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>1.05</drawSize>
+        </graphicData>
+        <costStuffCount>80</costStuffCount>
+        <stuffCategories>
+          <li>Fabric</li>
+        </stuffCategories>
+        <thingCategories>
+          <li>ApparelMisc</li>
+        </thingCategories>
+        <statBases>
+          <MaxHitPoints>200</MaxHitPoints>
+          <WorkToMake>16000</WorkToMake>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3</EquipDelay>
+        </statBases>
+        <apparel>
+          <bodyPartGroups>
+            <li>Torso</li>
+            <li>Neck</li>
+            <li>Shoulders</li>
+            <li>Arms</li>
+            <li>Legs</li>
+          </bodyPartGroups>
+          <wornGraphicPath>Apparel/RomaCapeI</wornGraphicPath>
+          <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+          <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+          <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+          <layers>
+            <li>Shell</li>
+          </layers>
+          <tags>
+            <li>pphhyy_Roma_Cape</li>
+          </tags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+      </ThingDef>
+</Defs>
