@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase" Name="pphhyy_Roma_Centurion_Helm_Base" Abstract="True">
+        <techLevel>Medieval</techLevel>
+        <uiIconScale>1.4</uiIconScale>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>50</costStuffCount>
+        <tradeTags>
+            <li>Clothing</li>
+            <li>Armor</li>
+        </tradeTags>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_RomaArmour</researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+        </recipeMaker>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_Roma_Centurion_Helm_Base">
+        <defName>pphhyy_Roma_Centurion_HelmI</defName>
+        <label>centurion helm</label>
+        <description>DESCRIPTION</description>
+        <graphicData>
+            <texPath>HeadGear/CenturionHelmI</texPath>
+        </graphicData>
+        <apparel>
+            <tags>
+                <li>pphhyy_Roma_CenturionI</li>
+            </tags>
+            <wornGraphicPath>HeadGear/CenturionHelmI</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="pphhyy_Roma_Centurion_Helm_Base">
+        <defName>pphhyy_Roma_Centurion_HelmII</defName>
+        <label>centurion helm</label>
+        <description>DESCRIPTION</description>
+        <graphicData>
+            <texPath>HeadGear/CenturionHelmII</texPath>
+        </graphicData>
+        <apparel>
+            <tags>
+                <li>pphhyy_Roma_CenturionII</li>
+            </tags>
+            <wornGraphicPath>HeadGear/CenturionHelmII</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+        </apparel>
+    </ThingDef>
+
+</Defs>

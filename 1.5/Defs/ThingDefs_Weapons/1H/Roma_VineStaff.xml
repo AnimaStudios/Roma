@@ -2,14 +2,13 @@
 <Defs>
 
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-    <defName>pphhyy_Roma_Malleus</defName>
-    <label>Roma malleus</label>
+    <defName>pphhyy_Roma_VineStaff</defName>
+    <label>Roma vine staff</label>
     <description>DESCRIPTION</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Weapons/RomaMalleus</texPath>
+      <texPath>Weapons/RomaVineStaff</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
@@ -18,24 +17,20 @@
       <WorkToMake>6000</WorkToMake>
       <Mass>1.25</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>0</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisites>
-        <li>Smithing</li>
         <li>pphhyy_RomaWeapons</li>
       </researchPrerequisites>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <costList>
-      <WoodLog>20</WoodLog>
+      <WoodLog>30</WoodLog>
     </costList>
     <weaponTags>
-      <li>pphhyyRomaMelee</li>
+      <li>pphhyyRomaVineStaff</li>
     </weaponTags>
     <tools>
       <li>
@@ -52,7 +47,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>16</power>
+        <power>13.5</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
