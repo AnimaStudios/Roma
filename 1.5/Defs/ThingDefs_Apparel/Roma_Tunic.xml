@@ -5,7 +5,7 @@
     <label>T-shirt</label>
     <description>A simple T-shirt.</description>
     <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <researchPrerequisite>pphhyy_RomaApparel</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Apparel/RomaTunic</texPath>
