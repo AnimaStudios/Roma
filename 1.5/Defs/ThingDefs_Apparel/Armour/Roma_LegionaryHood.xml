@@ -8,7 +8,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_RomaArmour</researchPrerequisite>
+            <researchPrerequisite>pphhyy_RomaApparel</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
