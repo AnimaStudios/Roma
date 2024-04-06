@@ -12,6 +12,9 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.05</drawSize>
     </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_RomaApparel</researchPrerequisite>
+    </recipeMaker>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>

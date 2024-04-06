@@ -131,7 +131,7 @@
       <li>pphhyy_Roma_CenturionI</li>
     </apparelTags>
     <weaponTags>
-      <li>pphhyy_RomaHeavyWeapons</li>
+      <li>pphhyyRomaMeleeHeavy</li>
     </weaponTags>
     <requiredWorkTags>
       <li>Violent</li>
@@ -151,7 +151,7 @@
       <li>pphhyy_Roma_CenturionII</li>
     </apparelTags>
     <weaponTags>
-      <li>pphhyy_RomaHeavyWeapons</li>
+      <li>pphhyyRomaMeleeHeavy</li>
     </weaponTags>
     <requiredWorkTags>
       <li>Violent</li>

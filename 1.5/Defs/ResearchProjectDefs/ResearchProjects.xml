@@ -41,4 +41,18 @@
     </prerequisites>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>pphhyy_RomaApparel</defName>
+    <tab>pphhyy_areubis</tab>
+    <label>Roman Clothes</label>
+    <description>DESCRIPTION</description>
+    <baseCost>250</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
 </Defs>
